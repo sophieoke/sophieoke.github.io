@@ -16,6 +16,7 @@ for (let i = 0; i < 13; i++) {
     drawSquare(pen1, 10 + i * 30, 10 + i * 30);
 }
 
+// Draw triangle of red squares
 let pen2 = document.getElementById("c2").getContext("2d");
 drawBackground(pen2);
 
@@ -27,4 +28,5 @@ while (i < 13) {
         j = j + 1;
     }
     i = i + 1;
+
 }
